@@ -12,7 +12,7 @@
                                  "org" (expand-file-name
                                         "src" dotfiles-dir))))
 ;; Load up Org Mode and Babel
-(require 'org-install)
+(require 'org)
 
 ;; load up the main file
 (org-babel-load-file (expand-file-name "starter-kit.org" dotfiles-dir))
