@@ -17,4 +17,7 @@
 ;; load up the main file
 (org-babel-load-file (expand-file-name "starter-kit.org" dotfiles-dir))
 
+;; fix issue with flyspell startup
+(setq flyspell-issue-welcome-flag nil)
+
 ;;; init.el ends here
